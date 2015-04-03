@@ -1,0 +1,19 @@
+<div ng-controller="ProductListCtrl as vm" animation="slide-left-right">
+    
+    <ion-header-bar class="bar-light">
+        <h1 class="title">{{vm.title}}</h1>
+        <button ng-click="console.log('mic activated for filtering list');" class="button icon ion-android-microphone"></button>
+    </ion-header-bar>
+
+    <ion-content animation="slide-left-right">
+        <div class="list">
+            <a ng-repeat="item in vm.products track by $index" ng-href="#/product/details/{{$index}}" class="item item-thumbnail-left item-icon-right">
+                <img ng-src="img/products/kitchen tool/{{ item.pImgUrl}}.jpg">
+                <h2>{{ item.pName}}</h2>
+                <h4>{{ item.pFinish | capitalize}}</h4>
+                <i class="icon ion-chevron-right"></i>
+            </a>
+        </div>
+    </ion-content>
+    
+</div>

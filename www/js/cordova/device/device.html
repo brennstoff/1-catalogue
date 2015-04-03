@@ -1,0 +1,23 @@
+<h4>{{cd.title}}   0.0.9</h4>
+<ul class="list">
+<!--
+    <li class="item" ng-repeat="item in cd.items">
+      {{item}}
+    </li>
+-->
+	
+
+
+<li class="item">Version is {{cd.version}}</li>
+<li class="item">Uuid is {{cd.uuid}}</li>
+<li class="item">PLatform is {{cd.platform}}</li>
+<li class="item">Model is {{cd.model}}</li>
+<li class="item">Cordova is {{cd.cordova}}</li>
+<li class="item" ng-repeat="(key, value) in cd.device">Device > {{key}} : {{value}}</li>
+
+<!--
+<li class="item">Cordova is {{cd.cordova}}</li>
+<li class="item">Device is {{cd.device}}</li>
+-->
+
+</ul>

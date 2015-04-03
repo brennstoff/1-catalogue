@@ -1,0 +1,1482 @@
+[
+    {
+        "pName": "Kunda Pawali",
+        "pCategoriesIds": "100, 101",
+        "pFinish": "Gloss",
+        "pSizes": "12,14,18,20,22,24",
+        "pGauge": "",
+        "pImgUrl": "Kunda Pawali PLain 12x18 20x24"
+    },
+    {
+        "pName": "Pawali",
+        "pCategoriesIds": "100, 101",
+        "pFinish": "Gloss",
+        "pSizes": "12,14,16,18,20,22,24",
+        "pGauge": "",
+        "pImgUrl": "Pawali PLain 12x18 20x24"
+    },
+    {
+        "pName": "Kadhi Kunda",
+        "pCategoriesIds": "100, 102",
+        "pFinish": "Gloss",
+        "pSizes": "20,22,24",
+        "pGauge": "",
+        "pImgUrl": "Kadi Kunda 19x24"
+    },
+    {
+        "pName": "Ring Bucket",
+        "pCategoriesIds": "100, 102",
+        "pFinish": "Gloss",
+        "pSizes": "3,4,5",
+        "pGauge": "",
+        "pImgUrl": "BUCKET RING WITH COVER"
+    },
+    {
+        "pName": "Classic Barni ( Jointless )",
+        "pCategoriesIds": "100, 103",
+        "pFinish": "Gloss",
+        "pSizes": "1,1.5,2,2.5,3,4,5,6,8,10",
+        "pGauge": "",
+        "pImgUrl": "Barni Life time 1x6"
+    },
+    {
+        "pName": "Ring Barni ( Jointless )",
+        "pCategoriesIds": "100, 103",
+        "pFinish": "Gloss",
+        "pSizes": "1,1.5,2,2.5,3,4,5",
+        "pGauge": "",
+        "pImgUrl": "BURNI RING WITHOUT JOINT"
+    },
+    {
+        "pName": "Milk Pot",
+        "pCategoriesIds": "100, 104",
+        "pFinish": "Gloss",
+        "pSizes": "7 X 9, 10 X 14, 15 X 18",
+        "pGauge": "",
+        "pImgUrl": "Milk POt 7x9 10x24"
+    },
+    {
+        "pName": "Premium Milk Can",
+        "pCategoriesIds": "100, 104",
+        "pFinish": "Dual",
+        "pSizes": "1,2,3",
+        "pGauge": "",
+        "pImgUrl": "PREMIUM MILK CAN"
+    },
+    {
+        "pName": "DD Russian Ring",
+        "pCategoriesIds": "100, 105",
+        "pFinish": "Gloss",
+        "pSizes": "7 X 9, 10 X 14, 15 X 18",
+        "pGauge": "",
+        "pImgUrl": "Deep Dabba Russian Ring 10x14"
+    },
+    {
+        "pName": "Premium Deep Dabba",
+        "pCategoriesIds": "100, 105",
+        "pFinish": "Gloss",
+        "pSizes": "1,2,3",
+        "pGauge": "",
+        "pImgUrl": "PREMIUM DEEP DABBA"
+    },
+    {
+        "pName": "Deep Dabba See Throu",
+        "pCategoriesIds": "100, 105",
+        "pFinish": "Gloss",
+        "pSizes": "7 X 9, 10 X 14, 15 X 18",
+        "pGauge": "",
+        "pImgUrl": "Deep Dabba See Thru 7x9 10x14"
+    },
+    {
+        "pName": "Deep Dabba",
+        "pCategoriesIds": "100, 105",
+        "pFinish": "Gloss",
+        "pSizes": "7 X 9, 10 X 14, 15 X 18, 19 X 24",
+        "pGauge": "",
+        "pImgUrl": "Deep Dabba Plain 7x9 10x24"
+    },
+    {
+        "pName": "Katordaan",
+        "pCategoriesIds": "100, 106",
+        "pFinish": "Gloss",
+        "pSizes": "13, 14, 15, 16",
+        "pGauge": "",
+        "pImgUrl": "Katordaan 13x15"
+    },
+    {
+        "pName": "Snack Pot",
+        "pCategoriesIds": "100, 106",
+        "pFinish": "Gloss",
+        "pSizes": "1 X 6 ( Half / Full )",
+        "pGauge": "",
+        "pImgUrl": "Snack Pot 1x6"
+    },
+    {
+        "pName": "Papad Dabba",
+        "pCategoriesIds": "100, 106",
+        "pFinish": "Gloss",
+        "pSizes": "10, 11, 12",
+        "pGauge": "",
+        "pImgUrl": "PAPAR DABBA"
+    },
+    {
+        "pName": "Fitwell Dabbi",
+        "pCategoriesIds": "100, 106",
+        "pFinish": "Gloss",
+        "pSizes": "0 X 2, 3 X 5",
+        "pGauge": "",
+        "pImgUrl": "Special Dabbi 0x2 3x5"
+    },
+    {
+        "pName": "Meera Dabbi",
+        "pCategoriesIds": "100, 106",
+        "pFinish": "Gloss",
+        "pSizes": "6 X 9",
+        "pGauge": "",
+        "pImgUrl": "Spiacal Puri Dabbi 6x9"
+    },
+    {
+        "pName": "Neelam Dabbi",
+        "pCategoriesIds": "100, 106",
+        "pFinish": "Gloss",
+        "pSizes": "6 X 9",
+        "pGauge": "",
+        "pImgUrl": "Neelam dabbi 6x9"
+    },
+    {
+        "pName": "Roti Dabba",
+        "pCategoriesIds": "100, 106",
+        "pFinish": "Gloss",
+        "pSizes": "Medium, Big",
+        "pGauge": "",
+        "pImgUrl": "ROti Dabba Midium BIg"
+    },
+    {
+        "pName": "Masala Potli",
+        "pCategoriesIds": "100, 107",
+        "pFinish": "Gloss",
+        "pSizes": "Medium, Big",
+        "pGauge": "",
+        "pImgUrl": "masala dabba - Copy"
+    },
+    {
+        "pName": "Masala Dabba with Plate",
+        "pCategoriesIds": "100, 107",
+        "pFinish": "Gloss",
+        "pSizes": "Small, Medium, Big",
+        "pGauge": "",
+        "pImgUrl": "masala dabba with plate - Copy"
+    },
+    {
+        "pName": "Masala Dabba 26G",
+        "pCategoriesIds": "100, 107",
+        "pFinish": "Gloss",
+        "pSizes": "11, 12, 13",
+        "pGauge": "",
+        "pImgUrl": "KUNDA MASALA DANI"
+    },
+    {
+        "pName": "Excellent Masala Dabba",
+        "pCategoriesIds": "100, 107",
+        "pFinish": "Gloss",
+        "pSizes": "Medium, Big",
+        "pGauge": "",
+        "pImgUrl": "EXCELLENT MASALA DABBA"
+    },
+    {
+        "pName": "Top Round Bottom",
+        "pCategoriesIds": "200, 201",
+        "pFinish": "Gloss",
+        "pSizes": "10 X 18, 19 X 24",
+        "pGauge": "18, 22",
+        "pImgUrl": "Top Round Bottom 7x11 12x18 19x24"
+    },
+    {
+        "pName": "Top Flat Bottom",
+        "pCategoriesIds": "200, 201",
+        "pFinish": "Gloss",
+        "pSizes": "10 X 18, 19 X 24",
+        "pGauge": "18, 22",
+        "pImgUrl": "top flat bottom - Copy"
+    },
+    {
+        "pName": "Punjabi Handi",
+        "pCategoriesIds": "200, 201",
+        "pFinish": "Gloss",
+        "pSizes": "1, 3",
+        "pGauge": "20",
+        "pImgUrl": "PUNJAB HANDI"
+    },
+    {
+        "pName": "Top Cover",
+        "pCategoriesIds": "200, 201",
+        "pFinish": "Gloss",
+        "pSizes": "7 X 18",
+        "pGauge": "",
+        "pImgUrl": "TOP COVER"
+    },
+    {
+        "pName": "Sauce Pan",
+        "pCategoriesIds": "200, 201",
+        "pFinish": "Gloss",
+        "pSizes": "10, 11, 12",
+        "pGauge": "18, 22",
+        "pImgUrl": "Saucepan PLain 20G 9x12"
+    },
+    {
+        "pName": "Top",
+        "pCategoriesIds": "200, 202",
+        "pFinish": "Gloss",
+        "pSizes": "10 X 18",
+        "pGauge": "18, 22",
+        "pImgUrl": "Top Copper  Bottom 10x18"
+    },
+    {
+        "pName": "Kadhai",
+        "pCategoriesIds": "200, 202",
+        "pFinish": "Gloss",
+        "pSizes": "12, 13, 14, 15",
+        "pGauge": "18, 22",
+        "pImgUrl": "Kadhai Copper Bottom"
+    },
+    {
+        "pName": "Sauce Pan - Copper Bottom",
+        "pCategoriesIds": "200, 202",
+        "pFinish": "Gloss",
+        "pSizes": "10, 11, 12",
+        "pGauge": "18, 22",
+        "pImgUrl": "Saucepan Copper Bottom 9x11"
+    },
+    {
+        "pName": "Prabhu Chetty",
+        "pCategoriesIds": "200, 202",
+        "pFinish": "Gloss",
+        "pSizes": "1, 2, 3, 4",
+        "pGauge": "20",
+        "pImgUrl": "Apple Handi Copper Bottom 1x3"
+    },
+    {
+        "pName": "Star Handi",
+        "pCategoriesIds": "200, 203",
+        "pFinish": "Gloss",
+        "pSizes": "3 pc set",
+        "pGauge": "",
+        "pImgUrl": "star handi - Copy"
+    },
+    {
+        "pName": "Butterfly Handi",
+        "pCategoriesIds": "200, 203",
+        "pFinish": "Gloss",
+        "pSizes": "3 pc set",
+        "pGauge": "",
+        "pImgUrl": "butterfly handi - Copy"
+    },
+    {
+        "pName": "Flora Handi",
+        "pCategoriesIds": "200, 203",
+        "pFinish": "Gloss",
+        "pSizes": "3 pc set",
+        "pGauge": "",
+        "pImgUrl": "flora handi - Copy"
+    },
+    {
+        "pName": "Top - Induction Bottom",
+        "pCategoriesIds": "200, 204",
+        "pFinish": "Gloss",
+        "pSizes": "7 X 9, 10 X 18, 19 X 24",
+        "pGauge": "",
+        "pImgUrl": "Top Induction Base 10x18"
+    },
+    {
+        "pName": "Sauce Pan - Induction Bottom",
+        "pCategoriesIds": "200, 204",
+        "pFinish": "Gloss",
+        "pSizes": "10, 11, 12",
+        "pGauge": "",
+        "pImgUrl": "Saucepan INduction Base 10x12"
+    },
+    {
+        "pName": "Kadhai - Induction Bottom",
+        "pCategoriesIds": "200, 204",
+        "pFinish": "Gloss",
+        "pSizes": "22, 13, 14, 15",
+        "pGauge": "",
+        "pImgUrl": "Kadai Induction Base medium"
+    },
+    {
+        "pName": "Fry Pan - Induction Bottom",
+        "pCategoriesIds": "200, 204",
+        "pFinish": "Gloss",
+        "pSizes": "11, 12",
+        "pGauge": "",
+        "pImgUrl": "Fry pan Induction base Small medium"
+    },
+    {
+        "pName": "Belly Handi",
+        "pCategoriesIds": "200, 204",
+        "pFinish": "Gloss",
+        "pSizes": "3 pc set",
+        "pGauge": "",
+        "pImgUrl": "Belly HAndi Induction Base 10x12"
+    },
+    {
+        "pName": "Safroni Handi",
+        "pCategoriesIds": "200, 204",
+        "pFinish": "Gloss",
+        "pSizes": "3 pc set",
+        "pGauge": "",
+        "pImgUrl": "SAFRONI HANDI"
+    },
+    {
+        "pName": "Idli pot Induction Base",
+        "pCategoriesIds": "200, 204",
+        "pFinish": "Gloss",
+        "pSizes": "4 Plates, 6 Plates",
+        "pGauge": "",
+        "pImgUrl": "idly pot 4 plate"
+    },
+    {
+        "pName": "Momos Maker/Steamer - Copper Bottom",
+        "pCategoriesIds": "200, 205",
+        "pFinish": "Gloss",
+        "pSizes": "",
+        "pGauge": "",
+        "pImgUrl": "momos maker steamer - Copy"
+    },
+    {
+        "pName": "Momos Maker/Steamer - Plain",
+        "pCategoriesIds": "200, 205",
+        "pFinish": "Gloss",
+        "pSizes": "",
+        "pGauge": "",
+        "pImgUrl": "MOMOS PLAIN"
+    },
+    {
+        "pName": "Premium Handi - Grey",
+        "pCategoriesIds": "200, 206",
+        "pFinish": "Gloss",
+        "pSizes": "1,2,3,4 pcs. Set",
+        "pGauge": "",
+        "pImgUrl": "HANDI GREY"
+    },
+    {
+        "pName": "Premium Handi - Copper",
+        "pCategoriesIds": "200, 206",
+        "pFinish": "Gloss",
+        "pSizes": "1/2/3 pcs. Set",
+        "pGauge": "",
+        "pImgUrl": "HANDI GOLD"
+    },
+    {
+        "pName": "NP Beeding",
+        "pCategoriesIds": "300, 301",
+        "pFinish": "Gloss",
+        "pSizes": "8,9,12,13,14,15",
+        "pGauge": "22",
+        "pImgUrl": "np beeding 12 x 15"
+    },
+    {
+        "pName": "Chapti Beeding",
+        "pCategoriesIds": "300, 301",
+        "pFinish": "Gloss",
+        "pSizes": "12,13,14,15",
+        "pGauge": "22",
+        "pImgUrl": "KHOMCHA CHAPTI BEEDING"
+    },
+    {
+        "pName": "Kanchan Bogi",
+        "pCategoriesIds": "300, 301",
+        "pFinish": "Gloss",
+        "pSizes": "8,9,12,13,14,15",
+        "pGauge": "22",
+        "pImgUrl": "KANCHAN BEEDING"
+    },
+    {
+        "pName": "Spice Beeding",
+        "pCategoriesIds": "300, 301",
+        "pFinish": "Gloss",
+        "pSizes": "8,9,12,13,14",
+        "pGauge": "22",
+        "pImgUrl": "SPICE BEEDING"
+    },
+    {
+        "pName": "Round Beeding",
+        "pCategoriesIds": "300, 301",
+        "pFinish": "Gloss",
+        "pSizes": "12,13,14,15",
+        "pGauge": "22",
+        "pImgUrl": "ROUND BEEDING"
+    },
+    {
+        "pName": "Bulging",
+        "pCategoriesIds": "300, 301",
+        "pFinish": "Gloss",
+        "pSizes": "12,13,14,15",
+        "pGauge": "22",
+        "pImgUrl": "BULGING"
+    },
+    {
+        "pName": "Khadi Kinari",
+        "pCategoriesIds": "300, 301",
+        "pFinish": "Gloss",
+        "pSizes": "12,13,14,15",
+        "pGauge": "20",
+        "pImgUrl": "KHADI KINARI"
+    },
+    {
+        "pName": "Parat",
+        "pCategoriesIds": "300, 301",
+        "pFinish": "Gloss",
+        "pSizes": "12 to 20",
+        "pGauge": "20",
+        "pImgUrl": "PARAT"
+    },
+    {
+        "pName": "China",
+        "pCategoriesIds": "300, 302",
+        "pFinish": "Gloss",
+        "pSizes": "8,9,11,12",
+        "pGauge": "22",
+        "pImgUrl": "CHINA"
+    },
+    {
+        "pName": "Rajbhog",
+        "pCategoriesIds": "300, 302",
+        "pFinish": "Gloss",
+        "pSizes": "8,9,11,12,13,14,15",
+        "pGauge": "22",
+        "pImgUrl": "RAJBHOG"
+    },
+    {
+        "pName": "Patti China",
+        "pCategoriesIds": "300, 302",
+        "pFinish": "Gloss",
+        "pSizes": "9,12,13,14",
+        "pGauge": "22",
+        "pImgUrl": "PATTICHINA"
+    },
+    {
+        "pName": "Square",
+        "pCategoriesIds": "300, 302",
+        "pFinish": "Gloss",
+        "pSizes": "Full, Half",
+        "pGauge": "22",
+        "pImgUrl": "SQUARE"
+    },
+    {
+        "pName": "Royal",
+        "pCategoriesIds": "300, 302",
+        "pFinish": "Gloss",
+        "pSizes": "8,9,11,12,13,14",
+        "pGauge": "22",
+        "pImgUrl": "ROYAL"
+    },
+    {
+        "pName": "Five in One",
+        "pCategoriesIds": "300, 303",
+        "pFinish": "Gloss",
+        "pSizes": "12 X 15, 13 X 17",
+        "pGauge": "",
+        "pImgUrl": "FIVEINONE"
+    },
+    {
+        "pName": "Round Deluxe",
+        "pCategoriesIds": "300, 303",
+        "pFinish": "Gloss",
+        "pSizes": "12, 13, 14",
+        "pGauge": "",
+        "pImgUrl": "ROUNDDELUXE"
+    },
+    {
+        "pName": "Vinod Bowl",
+        "pCategoriesIds": "300, 304",
+        "pFinish": "Gloss",
+        "pSizes": "5,5.5,6,6.5,7",
+        "pGauge": "",
+        "pImgUrl": "VINODBOWL"
+    },
+    {
+        "pName": "Belly Bowl",
+        "pCategoriesIds": "300, 304",
+        "pFinish": "Matt, Gloss, Dual",
+        "pSizes": "1,2,3,4",
+        "pGauge": "",
+        "pImgUrl": "BELLYBOWL"
+    },
+    {
+        "pName": "Royal Bowl",
+        "pCategoriesIds": "300, 304",
+        "pFinish": "Gloss",
+        "pSizes": "5.5 X 6.5",
+        "pGauge": "",
+        "pImgUrl": "ROYALBATI"
+    },
+    {
+        "pName": "Mukta Bowl",
+        "pCategoriesIds": "300, 304",
+        "pFinish": "Gloss",
+        "pSizes": "5, 5.5, 6, 6.5, 7",
+        "pGauge": "",
+        "pImgUrl": "MUKTABATI"
+    },
+    {
+        "pName": "Sadi Bati",
+        "pCategoriesIds": "300, 304",
+        "pFinish": "Gloss",
+        "pSizes": "4, 4.5, 5, 5.5, 6, 6.5",
+        "pGauge": "",
+        "pImgUrl": "SADIBATI"
+    },
+    {
+        "pName": "Royal Halwa",
+        "pCategoriesIds": "300, 305",
+        "pFinish": "Gloss",
+        "pSizes": "5,5.5,6",
+        "pGauge": "",
+        "pImgUrl": "ROYALHALWA"
+    },
+    {
+        "pName": "Halwa 26 G",
+        "pCategoriesIds": "300, 305",
+        "pFinish": "Gloss",
+        "pSizes": "1,2,3,4",
+        "pGauge": "",
+        "pImgUrl": "HALWA"
+    },
+    {
+        "pName": "Oval Dish",
+        "pCategoriesIds": "300, 305",
+        "pFinish": "Gloss",
+        "pSizes": "2,3",
+        "pGauge": "",
+        "pImgUrl": "OVALDISH"
+    },
+    {
+        "pName": "Belly Halwa",
+        "pCategoriesIds": "300, 305",
+        "pFinish": "Gloss",
+        "pSizes": "5,5.5,6",
+        "pGauge": "",
+        "pImgUrl": "BELLYHALWA"
+    },
+    {
+        "pName": "Square Halwa Plate",
+        "pCategoriesIds": "300, 305",
+        "pFinish": "Gloss",
+        "pSizes": "5,5.5,6",
+        "pGauge": "",
+        "pImgUrl": "SQUAREHALWAPLATE"
+    },
+    {
+        "pName": "Damru",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Gloss / Deepline",
+        "pSizes": "10",
+        "pGauge": "",
+        "pImgUrl": "DAMRU"
+    },
+    {
+        "pName": "Pari",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Gloss / Deepline",
+        "pSizes": "10",
+        "pGauge": "",
+        "pImgUrl": "PARI"
+    },
+    {
+        "pName": "Pari - Chilled",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Gloss",
+        "pSizes": "10",
+        "pGauge": "",
+        "pImgUrl": "PARICHILLED"
+    },
+    {
+        "pName": "Sumo",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Gloss / Deepline",
+        "pSizes": "10",
+        "pGauge": "",
+        "pImgUrl": "SUMO"
+    },
+    {
+        "pName": "Galaxy",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Gloss / Deepline",
+        "pSizes": "10",
+        "pGauge": "",
+        "pImgUrl": "GALAXY"
+    },
+    {
+        "pName": "Square",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Gloss",
+        "pSizes": "10",
+        "pGauge": "",
+        "pImgUrl": "SQUAREGLASS"
+    },
+    {
+        "pName": "Royal - Gloss",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Gloss",
+        "pSizes": "8, 10",
+        "pGauge": "",
+        "pImgUrl": "ROYALGLASS"
+    },
+    {
+        "pName": "Royal - Deepline",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Deepline",
+        "pSizes": "10",
+        "pGauge": "",
+        "pImgUrl": "ROYALDEEPLINE"
+    },
+    {
+        "pName": "Swift - Gloss",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Gloss",
+        "pSizes": "10",
+        "pGauge": "",
+        "pImgUrl": "SWIFT"
+    },
+    {
+        "pName": "Swift - Deepline",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Deepline",
+        "pSizes": "10",
+        "pGauge": "",
+        "pImgUrl": "SWIFTDEEPLINE"
+    },
+    {
+        "pName": "Airqueen",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Gloss / Deepline",
+        "pSizes": "10",
+        "pGauge": "",
+        "pImgUrl": "AIRQUEEN"
+    },
+    {
+        "pName": "Amarpali",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Gloss / Deepline",
+        "pSizes": "10",
+        "pGauge": "",
+        "pImgUrl": "AMARPALI"
+    },
+    {
+        "pName": "Honda",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Gloss / Dual",
+        "pSizes": "8",
+        "pGauge": "",
+        "pImgUrl": "HONDA"
+    },
+    {
+        "pName": "Matka",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Gloss / Dual",
+        "pSizes": "8",
+        "pGauge": "",
+        "pImgUrl": "MATKA"
+    },
+    {
+        "pName": "Belly",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Gloss / Dual",
+        "pSizes": "8",
+        "pGauge": "",
+        "pImgUrl": "BELLYGLASS"
+    },
+    {
+        "pName": "Ice - Gloss",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Gloss",
+        "pSizes": "8,10",
+        "pGauge": "",
+        "pImgUrl": "ICE"
+    },
+    {
+        "pName": "Ice - Deepline",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Gloss",
+        "pSizes": "8,10",
+        "pGauge": "",
+        "pImgUrl": "ICEDEEPLINE"
+    },
+    {
+        "pName": "Thums Up - Gloss",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Gloss",
+        "pSizes": "8,10",
+        "pGauge": "",
+        "pImgUrl": "THUMSUP"
+    },
+    {
+        "pName": "Thums Up - Deepline",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Gloss",
+        "pSizes": "8,10",
+        "pGauge": "",
+        "pImgUrl": "THUMSUPDEEPLINE"
+    },
+    {
+        "pName": "Beeding - Gloss",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Gloss",
+        "pSizes": "13,16",
+        "pGauge": "",
+        "pImgUrl": "BEEDING"
+    },
+    {
+        "pName": "Beeding - Deepline",
+        "pCategoriesIds": "300, 306",
+        "pFinish": "Gloss",
+        "pSizes": "13,16",
+        "pGauge": "",
+        "pImgUrl": "BEEDINGDEEPLINE"
+    },
+    {
+        "pName": "Damru Baby",
+        "pCategoriesIds": "300, 307",
+        "pFinish": "Gloss / Deepline",
+        "pSizes": "15",
+        "pGauge": "",
+        "pImgUrl": "DAMRUBABY"
+    },
+    {
+        "pName": "Pari Baby",
+        "pCategoriesIds": "300, 307",
+        "pFinish": "Gloss / Deepline",
+        "pSizes": "15",
+        "pGauge": "",
+        "pImgUrl": "PARIBABY"
+    },
+    {
+        "pName": "Juicy",
+        "pCategoriesIds": "300, 307",
+        "pFinish": "Gloss / Silverline",
+        "pSizes": "13, 16, 18",
+        "pGauge": "",
+        "pImgUrl": "JUICY"
+    },
+    {
+        "pName": "Juicy - Deepline",
+        "pCategoriesIds": "300, 307",
+        "pFinish": "Gloss / Silverline",
+        "pSizes": "13, 16, 18",
+        "pGauge": "",
+        "pImgUrl": "JUICYDEEPLINE"
+    },
+    {
+        "pName": "Jupiter",
+        "pCategoriesIds": "300, 307",
+        "pFinish": "Gloss / Silverline",
+        "pSizes": "13, 16, 18",
+        "pGauge": "",
+        "pImgUrl": "Square_Dinner Set"
+    },
+    {
+        "pName": "Square Dinner Set 57 Pcs",
+        "pCategoriesIds": "400, 403",
+        "pFinish": "Gloss",
+        "pSizes": "Square Plate Full - 6 Pcs.| Square Plate Half - 6 Pcs. | Belly Bowl - 12 Pcs. | Belly Halwa Plate- 6Pcs. | Belly Glass - 6 Pcs. | Jug with Cover - 1Pcs. | Tray Square - 1 Pc. | Handi Set Induction - 3 Pcs. | Baby Spoon 14G - 12 Pcs. | Service Spoon 14G - 3 Pcs. | Rice Spoon - 1 Pc.",
+        "pGauge": "",
+        "pImgUrl": "classic_Dinner Set"
+    },
+    {
+        "pName": "Classic 57 Pcs. Set",
+        "pCategoriesIds": "400, 403",
+        "pFinish": "Gloss",
+        "pSizes": "Raj Bhog Plain 12? - 6 Pcs. | Raj Bhog Plain 9? - 6 Pcs. | Vinod bowl - 12 Pcs. | DeepHalwa Plate- 6 Pcs. | Royal Glass - 6 Pcs. | Baby Spoon 14G - 6 Pcs. | Baby Fork 14G - 6 Pcs. | Rice Spoon- 1 Pc. | Service Spoon 14G - 3 Pcs. | Jug with cover - 1 Pc. | Handi Set Induction - 3 Pcs. | Rice Tray Oval - 1 Pc. ",
+        "pGauge": "",
+        "pImgUrl": "Special_Dinner Set"
+    },
+    {
+        "pName": "Special 65 Pcs. Set",
+        "pCategoriesIds": "400, 403",
+        "pFinish": "Gloss",
+        "pSizes": "Patti China 12? - 6 Pcs. | Patti China 9? - 6 Pcs. | Belly Bowl - 18 Pcs. | Belly Halwa Plate- 6 Pcs. |  Belly Glass - 6 Pcs. | Baby Spoon 14G - 12 Pcs. | Service Spoon 14G - 3 Pcs. | Rice Spoon- 1Pc. | Rice Tray Oval - 1 Pc. | Jug with cover - 1 Pc. | Serving Donga Double Wall - 3 Pcs. | Salt & Pepper - 1 Pc. | Napkin Holder - 1Pc.",
+        "pGauge": "",
+        "pImgUrl": "Elegancia_Dinner Set"
+    },
+    {
+        "pName": "Elegancia 75 Pcs. Set",
+        "pCategoriesIds": "400, 403",
+        "pFinish": "Gloss",
+        "pSizes": "Kanchan Bogi 13? - 6 Pcs. | Kanchan Bogi 9? - 6 Pcs. | Belly Bowl (Medium)- 12 Pcs. | Belly Bowl (Big) - 6 Pcs. | Belly Halwa Plate- 6 Pcs. | Belly Glass - 6 Pcs. | Fruit Bowl - 1 Pc. | Jug  with cover - 1 Pc. | Salad Tray - 1 Pc. | Rice Tray - 1 Pc. | Handi Set Induction - 3 Pcs. | Baby Spoon 14G - 6 Pcs. | Baby Fork 14G - 6 Pcs. | Fruit Fork - 6 Pcs. | Rice Spoon- 1Pc. | Service Spoon-3 Pcs. | Salad Server- 2 Pcs. | Napkin Holder - 1 Pc. | Salt & Pepper - 1 Pc.",
+        "pGauge": "",
+        "pImgUrl": "Elegancia_Dinner Set"
+    },
+    {
+        "pName": "Classic Flower 57 Pcs. Set",
+        "pCategoriesIds": "400, 403",
+        "pFinish": "Gloss",
+        "pSizes": "Raj Bhog Plain 12? - 6 Pcs. | Raj Bhog Plain 9? - 6 Pcs. | Vinod bowl - 12 Pcs. | DeepHalwa Plate- 6 Pcs. | Royal Glass - 6 Pcs. | Baby Spoon 14G - 6 Pcs. | Baby Fork 14G - 6 Pcs. | Rice Spoon- 1 Pc. | Service Spoon 14G - 3 Pcs. | Jug with cover - 1 Pc. | Handi Set Induction - 3 Pcs. | Rice Tray Oval - 1 Pc. ",
+        "pGauge": "",
+        "pImgUrl": "Classic Flower_Dinner Set"
+    },
+    {
+        "pName": "Rajwada Kitchen Set 101 Pcs.",
+        "pCategoriesIds": "400, 402",
+        "pFinish": "Gloss",
+        "pSizes": "Kunda Pawali 18? - 1 Pc. | Bucket with Cover - 1Pc. | Big Plates - 6 Pcs. | Dinner Plate - 6 Pcs. | Quarter Plate - 6 Pcs.  | Roti Dabba - 1Pc. | Chakla (Polpat) - 1 Pc. | Top Induction 15, 17 - 2 Pcs. | Top Cover - 2 Pcs. | Parat Heavy - 1 Pc. | Bowl Small - 12 Pcs. | Bowl Big - 6 Pcs. | Sweet Dish - 6 Pcs. | Deep Dabba - 4 Pcs. | Sauce Pan induction - 1 Pc. | Fry Pan - 1 Pc. | Kadhai Induction - 1 Pc. | Masala Dabba - 1 Pc. | Lota - 1 Pc. | Jug with Cover - 1 Pc. | Glass - 6 Pcs. | Salad Tray - 1 Pc. | Rice Tray - 1 Pc. | Barni - 1 Pc. | Ghee Pot - 1 Pc. | Handi Set Induction - 3 Pcs. | Belan - 1 Pc. | Karchi - 1Pc. | Zara - 1 Pc. | Palta - 1 Pc. | Rice Palta - 1 Pc. | Service Spoon - 3 Pcs. | Desert Spoon - 6 Pcs. | Baby Fork - 6 Pcs. | Baby Spoon - 6 Pcs. | Tea Strainer - 1 Pc.",
+        "pGauge": "",
+        "pImgUrl": "Rajwada_Dinner Set"
+    },
+    {
+        "pName": "Bridal 121 Pcs. Kitchen Set",
+        "pCategoriesIds": "400, 401",
+        "pFinish": "Gloss",
+        "pSizes": "Kunda Pawali 18 No. - 1Pc. | Ring Bucket- 1Pc. | Parat Heavy 20G 18 No. - 1Pc. |Service Tray - 1Pc. | Salad Tray - 1Pc. |Rice Tray - 1Pc. | Vinod Bowl Small - 12Pcs. | Vinod Bowl Big - 6Pcs. | Chatni Katori - 6Pcs. | Ghee Pot with Glass Lid - 1Pc. | Chit Chat (Salt & Pepper) - 1Pc. | Tea Mug Double Wall - 6Pcs. | Top Induction Bottom 13 x 15 x 17 - 3Pcs.  | Top Cover 13 x15 x 17- 3Pcs. | Zara Wooden Handle - 1Pc. | Pan Wooden Handle - 1Pc. | Chakla - 1Pc. | Belan Crystal - 1Pc. | Multi Palta Wooden Handle - 1Pc. |  Sandasi - 1Pc. | Tea Strainer - 1Pc. | Multi Server Wooden Handle - 1Pc. | Handi Induction Bottom - 3Pcs.| Kanchan Bogi 14? - 6Pcs. | Dinner Plate (Raj Bhog 12?) - 6Pcs. | Quarter Plate (Raj Bhog 9?) - 6Pcs. | Roti Dabba 2200 ML (Insulated) - 1Pc. | Barni Medium - 1Pc. | Silicoma Jug - 1Pc. | DD 10 x 14 - 5Pcs. | Spoon baby - 12Pcs. | Fork Baby - 6Pcs. | Service Spoon - 3pcs. | Rice Palta - 1Pc. | Royal Glass Plain - 6Pcs. | Sauce Pan Induction - 1Pc. | Fry Pan Induction - 1Pc. | Kadhai Induction - 1Pc. | Masala Potli Medium - 1Pc. |Napkin Holder - 1Pc. | Prestige Nakshatra Cooker 5 Ltr. Free ",
+        "pGauge": "",
+        "pImgUrl": "bridal set"
+    },
+    {
+        "pName": "Deluxe Mugga",
+        "pCategoriesIds": "500, 501",
+        "pFinish": "Gloss",
+        "pSizes": "300, 500, 700, 900, 1000, 1250 ML.",
+        "pGauge": "",
+        "pImgUrl": "deluxe mugga"
+    },
+    {
+        "pName": "Double Wall Big Mug Set",
+        "pCategoriesIds": "500, 501",
+        "pFinish": "Gloss",
+        "pSizes": "4 Pcs. Set",
+        "pGauge": "",
+        "pImgUrl": "double wall magga"
+    },
+    {
+        "pName": "Double Wall Small Mug Set",
+        "pCategoriesIds": "500, 501",
+        "pFinish": "Gloss",
+        "pSizes": "6 Pcs. Set",
+        "pGauge": "",
+        "pImgUrl": "double wall small magga"
+    },
+    {
+        "pName": "Lota Design 1",
+        "pCategoriesIds": "500, 502",
+        "pFinish": "Gloss",
+        "pSizes": "Small, Medium",
+        "pGauge": "",
+        "pImgUrl": "lota1"
+    },
+    {
+        "pName": "Lota Design 2",
+        "pCategoriesIds": "500, 502",
+        "pFinish": "Gloss",
+        "pSizes": "Small, Medium",
+        "pGauge": "",
+        "pImgUrl": "lota2"
+    },
+    {
+        "pName": "Lota Design 3",
+        "pCategoriesIds": "500, 502",
+        "pFinish": "Gloss",
+        "pSizes": "Small, Medium",
+        "pGauge": "",
+        "pImgUrl": "lota3"
+    },
+    {
+        "pName": "Dudh Kundi",
+        "pCategoriesIds": "500, 502",
+        "pFinish": "Gloss",
+        "pSizes": "8,10,12,14,16,18",
+        "pGauge": "",
+        "pImgUrl": "dudhkadi"
+    },
+    {
+        "pName": "Lota Design 4",
+        "pCategoriesIds": "500, 502",
+        "pFinish": "Gloss",
+        "pSizes": "8,10,12,14,16,18",
+        "pGauge": "",
+        "pImgUrl": "lota4"
+    },
+    {
+        "pName": "Sophia Milk Bucket",
+        "pCategoriesIds": "500, 502",
+        "pFinish": "Gloss",
+        "pSizes": "4,5,6",
+        "pGauge": "",
+        "pImgUrl": "sophia milk bucket"
+    },
+    {
+        "pName": "Water Pitcher - Deep",
+        "pCategoriesIds": "500, 503",
+        "pFinish": "Gloss",
+        "pSizes": "",
+        "pGauge": "",
+        "pImgUrl": "deep"
+    },
+    {
+        "pName": "Water Pitcher - Matki",
+        "pCategoriesIds": "500, 503",
+        "pFinish": "Gloss",
+        "pSizes": "",
+        "pGauge": "",
+        "pImgUrl": "mataki"
+    },
+    {
+        "pName": "Water Pitcher - Elephanta",
+        "pCategoriesIds": "500, 503",
+        "pFinish": "Gloss",
+        "pSizes": "",
+        "pGauge": "",
+        "pImgUrl": "elephanta"
+    },
+    {
+        "pName": "Water Pitcher - Belly Jug",
+        "pCategoriesIds": "500, 503",
+        "pFinish": "Gloss",
+        "pSizes": "",
+        "pGauge": "",
+        "pImgUrl": "bellyjug"
+    },
+    {
+        "pName": "Water Pitcher - Eva Jug",
+        "pCategoriesIds": "500, 503",
+        "pFinish": "Gloss",
+        "pSizes": "",
+        "pGauge": "",
+        "pImgUrl": "evajug"
+    },
+    {
+        "pName": "Water Pitcher - First Prize",
+        "pCategoriesIds": "500, 503",
+        "pFinish": "Gloss",
+        "pSizes": "",
+        "pGauge": "",
+        "pImgUrl": "firstprize"
+    },
+    {
+        "pName": "Water Pitcher - Oscar Jug",
+        "pCategoriesIds": "500, 503",
+        "pFinish": "Gloss",
+        "pSizes": "",
+        "pGauge": "",
+        "pImgUrl": "oscarjug"
+    },
+    {
+        "pName": "Water Pitcher - Aqua ( Hammered )",
+        "pCategoriesIds": "500, 503",
+        "pFinish": "Gloss",
+        "pSizes": "",
+        "pGauge": "",
+        "pImgUrl": "aqua"
+    },
+    {
+        "pName": "Water Pitcher - Silicoma",
+        "pCategoriesIds": "500, 503",
+        "pFinish": "Gloss",
+        "pSizes": "",
+        "pGauge": "",
+        "pImgUrl": "silicona"
+    },
+    {
+        "pName": "Water Pitcher - Rain Tree",
+        "pCategoriesIds": "500, 503",
+        "pFinish": "Gloss",
+        "pSizes": "",
+        "pGauge": "",
+        "pImgUrl": "raintree"
+    },
+    {
+        "pName": "Water Pitcher - Aqua",
+        "pCategoriesIds": "500, 503",
+        "pFinish": "Gloss",
+        "pSizes": "",
+        "pGauge": "",
+        "pImgUrl": "aquagloss"
+    },
+    {
+        "pName": "Lemon Sets",
+        "pCategoriesIds": "500, 504",
+        "pFinish": "Gloss ( Hammered )",
+        "pSizes": "7 Pcs. Set",
+        "pGauge": "",
+        "pImgUrl": "lemonset"
+    },
+    {
+        "pName": "Glass Sets - Royal",
+        "pCategoriesIds": "500, 504",
+        "pFinish": "Gloss / Deepline",
+        "pSizes": "6 Pcs. Set",
+        "pGauge": "",
+        "pImgUrl": "royalset"
+    },
+    {
+        "pName": "Glass Sets - Belly",
+        "pCategoriesIds": "500, 504",
+        "pFinish": "Gloss / Dual",
+        "pSizes": "6 Pcs. Set",
+        "pGauge": "",
+        "pImgUrl": "bellyset"
+    },
+    {
+        "pName": "Glass Sets - Amarpali",
+        "pCategoriesIds": "500, 504",
+        "pFinish": "Gloss / Deepline",
+        "pSizes": "6 Pcs. Set",
+        "pGauge": "",
+        "pImgUrl": "amarpaliglass"
+    },
+    {
+        "pName": "Glass Sets - Matka",
+        "pCategoriesIds": "500, 504",
+        "pFinish": "Gloss / Dual",
+        "pSizes": "6 Pcs. Set",
+        "pGauge": "",
+        "pImgUrl": "matakaset"
+    },
+    {
+        "pName": "Glass Sets - Airqueen",
+        "pCategoriesIds": "500, 504",
+        "pFinish": "Gloss / Deepline",
+        "pSizes": "6 Pcs. Set",
+        "pGauge": "",
+        "pImgUrl": "airqueenset"
+    },
+    {
+        "pName": "Glass Sets - Flower",
+        "pCategoriesIds": "500, 504",
+        "pFinish": "Gloss / Deepline",
+        "pSizes": "6 Pcs. Set",
+        "pGauge": "",
+        "pImgUrl": "flowerset"
+    },
+    {
+        "pName": "Glass Sets - Uno",
+        "pCategoriesIds": "500, 504",
+        "pFinish": "Gloss / Deepline",
+        "pSizes": "6 Pcs. Set",
+        "pGauge": "",
+        "pImgUrl": "unoset"
+    },
+    {
+        "pName": "Travelling Set",
+        "pCategoriesIds": "500, 505",
+        "pFinish": "Gloss",
+        "pSizes": "Medium, Big",
+        "pGauge": "",
+        "pImgUrl": "travellingset"
+    },
+    {
+        "pName": "Donga Double Wall",
+        "pCategoriesIds": "500, 506",
+        "pFinish": "Gloss",
+        "pSizes": "Single",
+        "pGauge": "",
+        "pImgUrl": "dongadoublewall"
+    },
+    {
+        "pName": "Donga Double Wall - 2Pcs Set",
+        "pCategoriesIds": "500, 506",
+        "pFinish": "Gloss",
+        "pSizes": "2 Pcs. Set",
+        "pGauge": "",
+        "pImgUrl": "donga2doublewall"
+    },
+    {
+        "pName": "Oil Dispenser",
+        "pCategoriesIds": "500, 506",
+        "pFinish": "Gloss",
+        "pSizes": "Medium, Large, Jumbo",
+        "pGauge": "",
+        "pImgUrl": "oildispanser"
+    },
+    {
+        "pName": "Belly Bowl Set",
+        "pCategoriesIds": "500, 507",
+        "pFinish": "Gloss / Dual",
+        "pSizes": "6  / 12 Pcs. Set",
+        "pGauge": "",
+        "pImgUrl": "bellybowlset"
+    },
+    {
+        "pName": "Thali Set",
+        "pCategoriesIds": "500, 507",
+        "pFinish": "Gloss",
+        "pSizes": "5 Pcs. Set",
+        "pGauge": "",
+        "pImgUrl": "thaliset"
+    },
+    {
+        "pName": "Square Plate 6 Pcs. Set",
+        "pCategoriesIds": "500, 507",
+        "pFinish": "Gloss",
+        "pSizes": "Full, Quarter",
+        "pGauge": "",
+        "pImgUrl": "squareplate"
+    },
+    {
+        "pName": "Apple Pot",
+        "pCategoriesIds": "500, 508",
+        "pFinish": "Gloss",
+        "pSizes": "Full, Quarter",
+        "pGauge": "",
+        "pImgUrl": "applepot"
+    },
+    {
+        "pName": "Jaipan Pot",
+        "pCategoriesIds": "500, 508",
+        "pFinish": "Gloss",
+        "pSizes": "1, 2, 3, 4",
+        "pGauge": "",
+        "pImgUrl": "jaipanpot"
+    },
+    {
+        "pName": "Ultra Ghee Pot",
+        "pCategoriesIds": "500, 508",
+        "pFinish": "Gloss",
+        "pSizes": "2, 3",
+        "pGauge": "",
+        "pImgUrl": "ultragheepot"
+    },
+    {
+        "pName": "Cosmos Pickle Set",
+        "pCategoriesIds": "500, 509",
+        "pFinish": "Gloss",
+        "pSizes": "3 Pcs. Set",
+        "pGauge": "",
+        "pImgUrl": "cosmospickleset"
+    },
+    {
+        "pName": "Excellent Two in One",
+        "pCategoriesIds": "500, 509",
+        "pFinish": "Gloss",
+        "pSizes": "2 Pcs. Set",
+        "pGauge": "",
+        "pImgUrl": "exceleent"
+    },
+    {
+        "pName": "Cosmos Pickle Set",
+        "pCategoriesIds": "500, 509",
+        "pFinish": "Gloss",
+        "pSizes": "4 Pcs. Set",
+        "pGauge": "",
+        "pImgUrl": "cosmospickel4"
+    },
+    {
+        "pName": "Chocolate Dabba",
+        "pCategoriesIds": "500, 510",
+        "pFinish": "Gloss",
+        "pSizes": "Small, Medium",
+        "pGauge": "",
+        "pImgUrl": "chocolate dabba"
+    },
+    {
+        "pName": "Multipurpose Box",
+        "pCategoriesIds": "500, 510",
+        "pFinish": "Gloss",
+        "pSizes": "Small, Medium, Big",
+        "pGauge": "",
+        "pImgUrl": "multipurpose set"
+    },
+    {
+        "pName": "Kitchen Container",
+        "pCategoriesIds": "500, 510",
+        "pFinish": "Gloss",
+        "pSizes": "Small, Medium, Big",
+        "pGauge": "",
+        "pImgUrl": "kitchencontainer"
+    },
+    {
+        "pName": "Stock Pot",
+        "pCategoriesIds": "500, 510",
+        "pFinish": "Gloss",
+        "pSizes": "Mini, Small, Medium, Big",
+        "pGauge": "",
+        "pImgUrl": "stockpot"
+    },
+    {
+        "pName": "Lotus Barni",
+        "pCategoriesIds": "500, 511",
+        "pFinish": "Gloss",
+        "pSizes": "Small, Medium, Big",
+        "pGauge": "",
+        "pImgUrl": "lotusbarni"
+    },
+    {
+        "pName": "Milk Barni",
+        "pCategoriesIds": "500, 511",
+        "pFinish": "Gloss",
+        "pSizes": "Small, Medium, Big",
+        "pGauge": "",
+        "pImgUrl": "mikbarni"
+    },
+    {
+        "pName": "Shubh Aarambh Dry Fruit",
+        "pCategoriesIds": "500, 511",
+        "pFinish": "Gloss",
+        "pSizes": "4 Bowls, 7 Bowls",
+        "pGauge": "",
+        "pImgUrl": "subhaarabh"
+    },
+    {
+        "pName": "Storage Box",
+        "pCategoriesIds": "500, 511",
+        "pFinish": "Gloss",
+        "pSizes": "Small, Medium, Big",
+        "pGauge": "",
+        "pImgUrl": "storage box"
+    },
+    {
+        "pName": "Cutlery - Tea Spoon",
+        "pCategoriesIds": "600, 601",
+        "pFinish": "Gloss",
+        "pSizes": "6 Pcs Pack",
+        "pGauge": "",
+        "pImgUrl": "tea spoon"
+    },
+    {
+        "pName": "Baby Spoon",
+        "pCategoriesIds": "600, 601",
+        "pFinish": "Gloss",
+        "pSizes": "6 Pcs Pack",
+        "pGauge": "",
+        "pImgUrl": "babyspoon"
+    },
+    {
+        "pName": "Desert Spoon",
+        "pCategoriesIds": "600, 601",
+        "pFinish": "Gloss",
+        "pSizes": "6 Pcs Pack",
+        "pGauge": "",
+        "pImgUrl": "dessert spoon"
+    },
+    {
+        "pName": "Fruit Fork",
+        "pCategoriesIds": "600, 601",
+        "pFinish": "Gloss",
+        "pSizes": "6 Pcs Pack",
+        "pGauge": "",
+        "pImgUrl": "fruit fork"
+    },
+    {
+        "pName": "Baby Fork",
+        "pCategoriesIds": "600, 601",
+        "pFinish": "Gloss",
+        "pSizes": "6 Pcs Pack",
+        "pGauge": "",
+        "pImgUrl": "baby fork"
+    },
+    {
+        "pName": "Desert Fork",
+        "pCategoriesIds": "600, 601",
+        "pFinish": "Gloss",
+        "pSizes": "6 Pcs Pack",
+        "pGauge": "",
+        "pImgUrl": "dessert fork"
+    },
+    {
+        "pName": "Soup Spoon",
+        "pCategoriesIds": "600, 601",
+        "pFinish": "Gloss",
+        "pSizes": "6 Pcs Pack",
+        "pGauge": "",
+        "pImgUrl": "soup spoon"
+    },
+    {
+        "pName": "Baby Knife",
+        "pCategoriesIds": "600, 601",
+        "pFinish": "Gloss",
+        "pSizes": "6 Pcs Pack",
+        "pGauge": "",
+        "pImgUrl": "baby knife"
+    },
+    {
+        "pName": "Butter Knife",
+        "pCategoriesIds": "600, 601",
+        "pFinish": "Gloss",
+        "pSizes": "6 Pcs Pack",
+        "pGauge": "",
+        "pImgUrl": "butter knife"
+    },
+    {
+        "pName": "Basting Achar",
+        "pCategoriesIds": "600, 602",
+        "pFinish": "Gloss",
+        "pSizes": "0, 1, 2, 3, 4, 5",
+        "pGauge": "",
+        "pImgUrl": "basting achar"
+    },
+    {
+        "pName": "Oval",
+        "pCategoriesIds": "600, 602",
+        "pFinish": "Gloss",
+        "pSizes": "0, 1, 2, 3, 4, 5",
+        "pGauge": "",
+        "pImgUrl": "oval"
+    },
+    {
+        "pName": "Pan",
+        "pCategoriesIds": "600, 602",
+        "pFinish": "Gloss",
+        "pSizes": "0, 1, 2, 3, 4, 5",
+        "pGauge": "",
+        "pImgUrl": "pan"
+    },
+    {
+        "pName": "Roti Turner Plus",
+        "pCategoriesIds": "600, 602",
+        "pFinish": "Gloss",
+        "pSizes": "5, 6",
+        "pGauge": "",
+        "pImgUrl": "roti turner"
+    },
+    {
+        "pName": "Solid Zara",
+        "pCategoriesIds": "600, 602",
+        "pFinish": "Gloss",
+        "pSizes": "5, 6",
+        "pGauge": "",
+        "pImgUrl": "solid zara"
+    },
+    {
+        "pName": "Fly Zara",
+        "pCategoriesIds": "600, 602",
+        "pFinish": "Gloss",
+        "pSizes": "4, 5, 6",
+        "pGauge": "",
+        "pImgUrl": "fly zara"
+    },
+    {
+        "pName": "Tavetta",
+        "pCategoriesIds": "600, 602",
+        "pFinish": "Gloss",
+        "pSizes": "5, 6",
+        "pGauge": "",
+        "pImgUrl": "tavetta"
+    },
+    {
+        "pName": "Frying Palta",
+        "pCategoriesIds": "600, 602",
+        "pFinish": "Gloss",
+        "pSizes": "1, 2",
+        "pGauge": "",
+        "pImgUrl": "frying palta"
+    },
+    {
+        "pName": "Flying Zara",
+        "pCategoriesIds": "600, 602",
+        "pFinish": "Gloss",
+        "pSizes": "2",
+        "pGauge": "",
+        "pImgUrl": "frying zara"
+    },
+    {
+        "pName": "Solid Turner",
+        "pCategoriesIds": "600, 602",
+        "pFinish": "Gloss",
+        "pSizes": "2",
+        "pGauge": "",
+        "pImgUrl": "solid turner"
+    },
+    {
+        "pName": "Fancy Bottle Opener",
+        "pCategoriesIds": "600, 602",
+        "pFinish": "Gloss",
+        "pSizes": "",
+        "pGauge": "",
+        "pImgUrl": "fancy bottle opner"
+    },
+    {
+        "pName": "Bengali Sweet Server",
+        "pCategoriesIds": "600, 602",
+        "pFinish": "Gloss",
+        "pSizes": "2, 4",
+        "pGauge": "",
+        "pImgUrl": "bengali sweet server"
+    },
+    {
+        "pName": "Swisco Laddle",
+        "pCategoriesIds": "600, 602",
+        "pFinish": "Gloss",
+        "pSizes": "4, 5, 6",
+        "pGauge": "",
+        "pImgUrl": "swisco laddle"
+    },
+    {
+        "pName": "Solid Laddle",
+        "pCategoriesIds": "600, 602",
+        "pFinish": "Gloss",
+        "pSizes": "1, 2, 3, 4",
+        "pGauge": "",
+        "pImgUrl": "solid ladle"
+    },
+    {
+        "pName": "Flat Laddle",
+        "pCategoriesIds": "600, 602",
+        "pFinish": "Gloss",
+        "pSizes": "0, 1, 2, 3, 4",
+        "pGauge": "",
+        "pImgUrl": "flat ladle"
+    },
+    {
+        "pName": "Punja Medium",
+        "pCategoriesIds": "600, 602",
+        "pFinish": "Gloss",
+        "pSizes": "1, 2",
+        "pGauge": "",
+        "pImgUrl": "punja"
+    },
+    {
+        "pName": "Solid Panchsheel",
+        "pCategoriesIds": "600, 602",
+        "pFinish": "Gloss",
+        "pSizes": "2",
+        "pGauge": "",
+        "pImgUrl": "solid panchsheel"
+    },
+    {
+        "pName": "Deep Oval",
+        "pCategoriesIds": "600, 602",
+        "pFinish": "Gloss",
+        "pSizes": "2",
+        "pGauge": "",
+        "pImgUrl": "deep oval"
+    },
+    {
+        "pName": "Fruit Trolley ( Square )",
+        "pCategoriesIds": "700, 701",
+        "pFinish": "Gloss",
+        "pSizes": "2 Basket, 3 Basket",
+        "pGauge": "",
+        "pImgUrl": "fruit trolly"
+    },
+    {
+        "pName": "Tokra Square Pipe",
+        "pCategoriesIds": "700, 701",
+        "pFinish": "Gloss",
+        "pSizes": "0, 1, 2, 3",
+        "pGauge": "",
+        "pImgUrl": "tokra"
+    },
+    {
+        "pName": "Rack",
+        "pCategoriesIds": "700, 701",
+        "pFinish": "Gloss",
+        "pSizes": "24 x 24, 24 x 30, 31 x 30, 24 x 18, 31 x 24, 36 x 36",
+        "pGauge": "",
+        "pImgUrl": "rack"
+    },
+    {
+        "pName": "Fruit Basket",
+        "pCategoriesIds": "700, 701",
+        "pFinish": "Gloss",
+        "pSizes": "1, 2, 3, 4",
+        "pGauge": "",
+        "pImgUrl": "fruit basket"
+    },
+	{
+        "pName": "Deep Dabba See Throu",
+        "pCategoriesIds": "100, 105",
+        "pFinish": "Gloss",
+        "pSizes": "7 X 9, 10 X 14, 15 X 18",
+        "pGauge": "",
+        "pImgUrl": "Deep Dabba See Thru 7x9 10x14"
+    }
+]

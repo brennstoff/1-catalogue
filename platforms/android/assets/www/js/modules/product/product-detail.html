@@ -1,0 +1,32 @@
+<div ng-controller="ProductDetailCtrl as vm">
+    <ion-header-bar class="bar-light">
+        <button ui-sref="product.list" class="button icon ion-navicon"></button>
+        <h1 class="title">{{vm.currentProduct[0].pName}}</h1>
+    </ion-header-bar>
+    <ion-content 
+        on-swipe-up="console.log('swipe up'); $state.go('products.details({ id: vm.index - 1 })');"  
+        on-swipe-left="console.log('swipe left'); $state.go('products.details({ id: vm.index - 1 })');"  
+        on-swipe-right="console.log('swipe right'); $state.go('products.details({ id: vm.index + 1 })');" 
+        on-swipe-down="$console.log('swipe down'); state.go('products.details({ id: vm.index + 1 })');"  
+        >
+        <div class="item item-body">
+            <img class="full-image"  ng-src="img/products/kitchen tool/{{vm.currentProduct[0].pImgUrl}}.jpg" alt="{{vm.currentProduct[0].pName}}">
+            <p>
+                Product Name :  {{vm.currentProduct[0].pName}}
+            </p>
+            <p>
+                <!-- {{vm.currentProduct| json}}<br />  -->
+                Available Sizes :   {{vm.currentProduct[0].pSizes}}
+            </p>
+            <p>Total Products in Store : {{vm.index}}/{{vm.totalProducts}}</p>
+        </div>
+    </ion-content>
+    <div class="bar bar-footer bar-light">
+        <button ui-sref="product.details({ id: vm.index - 1 })" class="button">
+            <i class="icon ion-chevron-left"></i> Previous Item
+        </button>
+        <button ui-sref="product.details({ id: vm.index + 1 })" class="button">
+            Next Item <i class="icon ion-chevron-right"></i>
+        </button>
+    </div>
+</div>

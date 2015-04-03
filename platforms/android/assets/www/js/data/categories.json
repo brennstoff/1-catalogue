@@ -1,0 +1,272 @@
+[
+    {
+        "isChild": "FALSE",
+        "cId": "100",
+        "cName": "Storage Ware",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "101",
+        "cName": "Pawali",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "102",
+        "cName": "Bucket & Kadi kunda",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "103",
+        "cName": "Barni",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "104",
+        "cName": "Milk Can",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "105",
+        "cName": "Deep Dabba",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "106",
+        "cName": "Storage Boxes",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "107",
+        "cName": "Masala Dabba",
+        "catParentId": ""
+    },
+    {
+        "isChild": "FALSE",
+        "cId": "200",
+        "cName": "Cookware",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "201",
+        "cName": "Plain Bottom",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "202",
+        "cName": "Copper Bottom",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "203",
+        "cName": "Copper Bottom Handi",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "204",
+        "cName": "Induction Base",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "205",
+        "cName": "Momos Maker",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "206",
+        "cName": "Premium Handi",
+        "catParentId": ""
+    },
+    {
+        "isChild": "FALSE",
+        "cId": "300",
+        "cName": "Table Ware",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "301",
+        "cName": "Khomcha",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "302",
+        "cName": "Plates",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "303",
+        "cName": "Bhojan Thal",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "304",
+        "cName": "Bowl & Pudding",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "305",
+        "cName": "Pudding Plate",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "306",
+        "cName": "Glasses",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "307",
+        "cName": "Baby Glasses",
+        "catParentId": ""
+    },
+    {
+        "isChild": "FALSE",
+        "cId": "400",
+        "cName": "Dinner Sets",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "401",
+        "cName": "Bridal Set",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "402",
+        "cName": "Kitchen Set",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "403",
+        "cName": "Dinner Set",
+        "catParentId": ""
+    },
+    {
+        "isChild": "FALSE",
+        "cId": "500",
+        "cName": "Misc. Items",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "501",
+        "cName": "Mug Sets",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "502",
+        "cName": "Lota",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "503",
+        "cName": "Water Pitcher",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "504",
+        "cName": "Glass Set",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "505",
+        "cName": "Traveling Set",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "506",
+        "cName": "Donga",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "507",
+        "cName": "Bowl & Thali",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "508",
+        "cName": "Fancy Pots",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "509",
+        "cName": "Pickels Set",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "510",
+        "cName": "Storage & Dabba",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "511",
+        "cName": "Barni - Storage Box",
+        "catParentId": ""
+    },
+    {
+        "isChild": "FALSE",
+        "cId": "600",
+        "cName": "Kitchen Tool",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "601",
+        "cName": "Cutlery",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "602",
+        "cName": "Kitchen Tools",
+        "catParentId": ""
+    },
+    {
+        "isChild": "FALSE",
+        "cId": "700",
+        "cName": "Wire Items",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "701",
+        "cName": "Basket",
+        "catParentId": ""
+    },
+    {
+        "isChild": "TRUE",
+        "cId": "702",
+        "cName": "Rack",
+        "catParentId": ""
+    }
+]
