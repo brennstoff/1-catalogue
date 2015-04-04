@@ -187,7 +187,174 @@
 						  });
 					});
 					break;
+				
+				case "lwf1":		// write operation only
+					$ionicPlatform.ready(function() {
 					
+						toastr.info('Enter filePath dir/file.txt or file.txt in input2');
+						toastr.info('Enter data in input3');
+						
+						dirPath = vm.input2;
+						filePath = vm.input3;
+						
+						// dirPath = "tfa.txt";
+						// filePath = "Sample Text";
+						
+						function writeToFile() {
+							window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, gotFS, fail);
+						}
+						// put this file in the root of the device's file system
+						function gotFS(fileSystem) {
+							fileSystem.root.getFile(dirPath, {create: true, exclusive: false}, gotFileEntry, fail);
+						}
+						function gotFileEntry(fileEntry) {
+							fileEntry.createWriter(gotFileWriter, fail);
+						}
+
+						function gotFileWriter(writer) {
+							// var form = document.getElementById('myForm'); // get the form
+							// var userText = form.userInput.value; // get the text field value
+							writer.seek(writer.length); // get the length of the file; go to end
+							writer.write('\n\n' + filePath); // skip a space and start writing
+							writer.onwriteend = function(evt){
+								toastr.success("You wrote ' " + filePath + " ' at the end of the file.");
+								// alert("You wrote ' " + filePath + " ' at the end of the file.");
+							} 
+							// form.userInput2.value = "";
+							// readTheFile(); // show new file contents
+						}
+						
+						function fail(error) {
+							console.log(error.code);
+						}
+						
+						
+						writeToFile();
+						
+						
+					});
+					break;
+				
+				case "lwf2":		// write and read both operation
+					$ionicPlatform.ready(function() {
+						
+						toastr.info('Enter filePath dir/file.txt or file.txt in input2');
+						toastr.info('Enter data in input3');
+						
+						dirPath = vm.input2;
+						filePath = vm.input3;
+						
+						// dirPath = "tfa.txt";
+						// filePath = "Sample Text";
+						
+						function writeToFile() {
+							window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, gotFS, fail);
+						}
+						// put this file in the root of the device's file system
+						function gotFS(fileSystem) {
+							fileSystem.root.getFile(dirPath, {create: true, exclusive: false}, gotFileEntry, fail);
+						}
+						function gotFileEntry(fileEntry) {
+							fileEntry.createWriter(gotFileWriter, fail);
+						}
+
+						function gotFileWriter(writer) {
+							// var form = document.getElementById('myForm'); // get the form
+							// var userText = form.userInput.value; // get the text field value
+							writer.seek(writer.length); // get the length of the file; go to end
+							writer.write('\n\n' + filePath); // skip a space and start writing
+							writer.onwriteend = function(evt){
+								toastr.success("You wrote ' " + filePath + " ' at the end of the file.");
+								// alert("You wrote ' " + filePath + " ' at the end of the file.");
+							} 
+							// form.userInput2.value = "";
+							readTheFile(); // show new file contents
+						}
+						
+						
+						
+						writeToFile();
+						
+						
+						function readTheFile() {
+							window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, gotFS2, fail);
+						}
+
+						function gotFS2(fileSystem) {
+							fileSystem.root.getFile(dirPath, null, gotFileEntry2, fail);
+						}
+						function gotFileEntry2(fileEntry) {
+							fileEntry.file(gotFile2, fail);
+						}
+						function gotFile2(file){
+							readDataUrl(file);
+							readAsText(file);
+						}
+
+						// puts the txt contents on the page as data URL
+						function readDataUrl(file) {
+							var reader = new FileReader();
+							reader.onloadend = function(evt) {
+								toastr.success('read Data url on load end');
+								toastr.inf(evt.target.result);
+								// var element = document.getElementById('data1');
+								// element.innerHTML = '<strong>Read as data URL:</strong> <br><pre>' + evt.target.result + '</pre>';
+							};
+							reader.readAsDataURL(file);
+						}
+						// puts the txt contents on the page as data text
+						function readAsText(file) {
+							var reader = new FileReader();
+							reader.onloadend = function(evt) {
+								var element = document.getElementById('data2');
+								element.innerHTML = '<strong>Read as data text:</strong> <br><pre>' + evt.target.result + '</pre>';
+							};
+							reader.readAsText(file);
+						}
+					});
+					break;
+				
+				case "dfc": //delete file content
+					$ionicPlatform.ready(function() {
+
+						toastr.info('Delete file content operation');
+						toastr.info('Enter filePath dir/file.txt or file.txt in input2');
+						dirPath = vm.input2;
+						
+					// ******* delete the file contents **********
+						function deleteContents() {
+							window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, gotFS3, fail);
+						}
+						// get this file in the root of the device's file system
+						function gotFS3(fileSystem) {
+							fileSystem.root.getFile(dirPath, {create: false, exclusive: false}, gotFileEntry3, fail);
+						}
+						function gotFileEntry3(fileEntry) {
+							fileEntry.createWriter(gotFileWriter3, fail);
+						}
+
+						function gotFileWriter3(writer) {
+							writer.onwriteend = function(evt) {
+								writer.truncate(writer.length); // truncate entire file
+								writer.onwriteend = function(evt) {
+									writer.seek(0); // start at beginning of file
+									writer.write(""); // add no content
+									writer.onwriteend = function(evt){
+										toastr.success("You deleted the file contents.");
+										// alert("You deleted the file contents.");
+									}
+									// readTheFile(); // show file contents
+								};
+							};
+							writer.write(""); 
+						}
+						function fail(error) {
+							toastr.error(error.code);
+							// console.log(error.code);
+						}
+					});	
+					break;
+				
 				case "wfa":	
 					document.addEventListener('deviceready', function () {
 						toastr.info('Enter filePath dir/file.txt or file.txt in input2');
@@ -227,7 +394,7 @@
 					});
 					break;
 					
-				case "rat":	
+				case "rat":		// readAsText
 					document.addEventListener('deviceready', function () {
 						toastr.info('Enter filePath dir/file.txt or file.txt in input2');
 						filePath = vm.input2;

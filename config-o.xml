@@ -13,6 +13,10 @@
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="BackupWebStorage" value="none"/>
+  <preference name="AndroidPersistentFileLocation" value="Internal" />
+  <feature name="http://api.phonegap.com/1.0/device" />
+  <feature name="http://api.phonegap.com/1.0/file"/>
+  <feature name="http://api.phonegap.com/1.0/network"/>
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
@@ -22,4 +26,5 @@
 	<feature name="FileTransfer">
 		<param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
 	</feature>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 </widget>

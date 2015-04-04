@@ -21,11 +21,11 @@
 							.then(
 								  null, // Background never resolves
 								  function (err) { // error callback
-										toastr.success('Operation Success');
+										toastr.error('Operation Error');
 										toastr.error(err);
 								  },
 								  function (location) { // notify callback
-										toastr.success('Operation Fail');
+										toastr.success('Operation Success');
 										toastr.info(location);
 							});
 					});
