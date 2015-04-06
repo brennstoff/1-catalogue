@@ -37,7 +37,43 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"BackgroundGeoLocation\"><param name=\"android-package\" value=\"com.tenforwardconsulting.cordova.bgloc.BackgroundGpsPlugin\" /></feature>",
+                            "xml": "<feature name=\"Vibration\"><param name=\"android-package\" value=\"org.apache.cordova.vibration.Vibration\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SocialSharing\"><param name=\"android-package\" value=\"nl.xservices.plugins.SocialSharing\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"PushPlugin\"><param name=\"android-package\" value=\"com.plugin.gcm.PushPlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"NativeAudio\"><param name=\"android-package\" value=\"de.neofonie.cordova.plugin.nativeaudio.NativeAudio\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Media\"><param name=\"android-package\" value=\"org.apache.cordova.media.AudioHandler\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"LocalNotification\"><param name=\"android-package\" value=\"de.appplant.cordova.plugin.localnotification.LocalNotification\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"ImagePicker\"><param name=\"android-package\" value=\"com.synconset.ImagePicker\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"FileOpener2\"><param name=\"android-package\" value=\"io.github.pwlin.cordova.plugins.fileopener2.FileOpener2\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Compass\"><param name=\"android-package\" value=\"org.apache.cordova.deviceorientation.CompassListener\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -48,50 +84,118 @@
                     "/*": [
                         {
                             "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
-                            "count": 2
+                            "count": 5
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
-                            "count": 1
+                            "count": 2
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
-                            "count": 1
+                            "count": 2
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\" />",
+                            "count": 2
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />",
+                            "count": 2
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />",
                             "count": 1
                         }
                     ],
                     "/manifest/application": [
                         {
-                            "xml": "<service android:enabled=\"true\" android:name=\"com.tenforwardconsulting.cordova.bgloc.LocationUpdateService\" android:process=\":remote\" />",
+                            "xml": "<activity android:exported=\"true\" android:name=\"com.plugin.gcm.PushHandlerActivity\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:name=\"com.plugin.gcm.CordovaGCMBroadcastReceiver\" android:permission=\"com.google.android.c2dm.permission.SEND\"><intent-filter><action android:name=\"com.google.android.c2dm.intent.RECEIVE\" /><action android:name=\"com.google.android.c2dm.intent.REGISTRATION\" /><category android:name=\"com.ionicframework.brennstofftestercatalogue509972\" /></intent-filter></receiver>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<service android:name=\"com.plugin.gcm.GCMIntentService\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:exported=\"false\" android:name=\"de.appplant.cordova.plugin.localnotification.TriggerReceiver\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:exported=\"false\" android:name=\"de.appplant.cordova.plugin.localnotification.ClearReceiver\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:exported=\"false\" android:launchMode=\"singleInstance\" android:name=\"de.appplant.cordova.plugin.localnotification.ClickActivity\" android:theme=\"@android:style/Theme.NoDisplay\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:exported=\"false\" android:name=\"de.appplant.cordova.plugin.notification.TriggerReceiver\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:exported=\"false\" android:name=\"de.appplant.cordova.plugin.notification.ClearReceiver\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:exported=\"false\" android:name=\"de.appplant.cordova.plugin.localnotification.RestoreReceiver\"><intent-filter><action android:name=\"android.intent.action.BOOT_COMPLETED\" /></intent-filter></receiver>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:exported=\"false\" android:launchMode=\"singleInstance\" android:name=\"de.appplant.cordova.plugin.notification.ClickActivity\" android:theme=\"@android:style/Theme.NoDisplay\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:label=\"@string/multi_app_name\" android:name=\"com.synconset.MultiImageChooserActivity\" android:theme=\"@android:style/Theme.Holo.Light\"></activity>",
                             "count": 1
                         }
                     ],
                     "/manifest": [
                         {
+                            "xml": "<uses-permission android:name=\"android.permission.VIBRATE\" />",
+                            "count": 2
+                        },
+                        {
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
                             "count": 1
                         },
                         {
-                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_LOCATION_EXTRA_COMMANDS\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+                            "xml": "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\" />",
                             "count": 1
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.WAKE_LOCK\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"com.google.android.c2dm.permission.RECEIVE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<permission android:name=\"com.ionicframework.brennstofftestercatalogue509972.permission.C2D_MESSAGE\" android:protectionLevel=\"signature\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"com.ionicframework.brennstofftestercatalogue509972.permission.C2D_MESSAGE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
                             "count": 1
                         }
                     ]
@@ -124,7 +228,34 @@
         "org.apache.cordova.network-information": {
             "PACKAGE_NAME": "com.ionicframework.brennstofftestercatalogue509972"
         },
-        "org.transistorsoft.cordova.background-geolocation": {
+        "org.apache.cordova.vibration": {
+            "PACKAGE_NAME": "com.ionicframework.brennstofftestercatalogue509972"
+        },
+        "nl.x-services.plugins.socialsharing": {
+            "PACKAGE_NAME": "com.ionicframework.brennstofftestercatalogue509972"
+        },
+        "com.phonegap.plugins.PushPlugin": {
+            "PACKAGE_NAME": "com.ionicframework.brennstofftestercatalogue509972"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.ionicframework.brennstofftestercatalogue509972"
+        },
+        "de.neofonie.cordova.plugin.nativeaudio": {
+            "PACKAGE_NAME": "com.ionicframework.brennstofftestercatalogue509972"
+        },
+        "org.apache.cordova.media": {
+            "PACKAGE_NAME": "com.ionicframework.brennstofftestercatalogue509972"
+        },
+        "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "com.ionicframework.brennstofftestercatalogue509972"
+        },
+        "com.synconset.imagepicker": {
+            "PACKAGE_NAME": "com.ionicframework.brennstofftestercatalogue509972"
+        },
+        "io.github.pwlin.cordova.plugins.fileopener2": {
+            "PACKAGE_NAME": "com.ionicframework.brennstofftestercatalogue509972"
+        },
+        "org.apache.cordova.device-orientation": {
             "PACKAGE_NAME": "com.ionicframework.brennstofftestercatalogue509972"
         }
     },

@@ -1,0 +1,32 @@
+<div class="list">
+	<div class="item item-input">
+		{{cd.title}} v0.0.1
+	</div>
+	<label class="item item-input">
+		<input ng-model="cd.feature" type="text" placeholder="feature">
+	</label>
+	<label class="item item-input">
+		<input ng-model="cd.input1" type="text" placeholder="input1">
+	</label>
+	<label class="item item-input">
+		<input ng-model="cd.input2" type="text" placeholder="input2">
+	</label>
+	
+	<label class="item item-input">
+		<textarea ng-model="cd.input3" type="text" placeholder="input3"></textarea>
+	</label>
+	
+	<button ng-click="cd.judgeAction()" class="button button-full button-light">
+		Send Action Request
+	</button>
+	
+	<div class="item item-input">
+		{{cd.feature}}
+	</div>
+	<div class="item item-input" ng-bind="cd.result"></div>
+	<!--
+	<div class="item item-input" ng-repeat="r in cd.results">
+		{{r}}
+	</div>
+	-->
+</div>

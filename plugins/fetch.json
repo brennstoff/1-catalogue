@@ -72,5 +72,65 @@
             "type": "registry",
             "id": "org.apache.cordova.network-information"
         }
+    },
+    "nl.x-services.plugins.socialsharing": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
+            "subdir": "."
+        }
+    },
+    "com.phonegap.plugins.PushPlugin": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phonegap-build/PushPlugin.git",
+            "subdir": "."
+        }
+    },
+    "cordova-plugin-inappbrowser": {
+        "source": {
+            "type": "git",
+            "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git",
+            "subdir": "."
+        }
+    },
+    "de.neofonie.cordova.plugin.nativeaudio": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/SidneyS/cordova-plugin-nativeaudio.git",
+            "subdir": "."
+        }
+    },
+    "org.apache.cordova.media": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.media"
+        }
+    },
+    "de.appplant.cordova.plugin.local-notification": {
+        "source": {
+            "type": "registry",
+            "id": "de.appplant.cordova.plugin.local-notification"
+        }
+    },
+    "com.synconset.imagepicker": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wymsee/cordova-imagePicker.git",
+            "subdir": "."
+        }
+    },
+    "io.github.pwlin.cordova.plugins.fileopener2": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pwlin/cordova-plugin-file-opener2",
+            "subdir": "."
+        }
+    },
+    "org.apache.cordova.device-orientation": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.device-orientation"
+        }
     }
 }

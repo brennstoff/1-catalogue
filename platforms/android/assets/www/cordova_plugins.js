@@ -212,10 +212,97 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/org.transistorsoft.cordova.background-geolocation/www/BackgroundGeoLocation.js",
-        "id": "org.transistorsoft.cordova.background-geolocation.BackgroundGeoLocation",
+        "file": "plugins/org.apache.cordova.vibration/www/vibration.js",
+        "id": "org.apache.cordova.vibration.notification",
+        "merges": [
+            "navigator.notification",
+            "navigator"
+        ]
+    },
+    {
+        "file": "plugins/nl.x-services.plugins.socialsharing/www/SocialSharing.js",
+        "id": "nl.x-services.plugins.socialsharing.SocialSharing",
         "clobbers": [
-            "plugins.backgroundGeoLocation"
+            "window.plugins.socialsharing"
+        ]
+    },
+    {
+        "file": "plugins/com.phonegap.plugins.PushPlugin/www/PushNotification.js",
+        "id": "com.phonegap.plugins.PushPlugin.PushNotification",
+        "clobbers": [
+            "PushNotification"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+        "id": "cordova-plugin-inappbrowser.inappbrowser",
+        "clobbers": [
+            "cordova.InAppBrowser.open",
+            "window.open"
+        ]
+    },
+    {
+        "file": "plugins/de.neofonie.cordova.plugin.nativeaudio/www/nativeaudio.js",
+        "id": "de.neofonie.cordova.plugin.nativeaudio.nativeaudio",
+        "clobbers": [
+            "window.plugins.NativeAudio"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.media/www/MediaError.js",
+        "id": "org.apache.cordova.media.MediaError",
+        "clobbers": [
+            "window.MediaError"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.media/www/Media.js",
+        "id": "org.apache.cordova.media.Media",
+        "clobbers": [
+            "window.Media"
+        ]
+    },
+    {
+        "file": "plugins/de.appplant.cordova.plugin.local-notification/www/local-notification.js",
+        "id": "de.appplant.cordova.plugin.local-notification.LocalNotification",
+        "clobbers": [
+            "cordova.plugins.notification.local",
+            "plugin.notification.local"
+        ]
+    },
+    {
+        "file": "plugins/com.synconset.imagepicker/www/imagepicker.js",
+        "id": "com.synconset.imagepicker.ImagePicker",
+        "clobbers": [
+            "plugins.imagePicker"
+        ]
+    },
+    {
+        "file": "plugins/io.github.pwlin.cordova.plugins.fileopener2/www/plugins.FileOpener2.js",
+        "id": "io.github.pwlin.cordova.plugins.fileopener2.FileOpener2",
+        "clobbers": [
+            "cordova.plugins.fileOpener2"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.device-orientation/www/CompassError.js",
+        "id": "org.apache.cordova.device-orientation.CompassError",
+        "clobbers": [
+            "CompassError"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.device-orientation/www/CompassHeading.js",
+        "id": "org.apache.cordova.device-orientation.CompassHeading",
+        "clobbers": [
+            "CompassHeading"
+        ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.device-orientation/www/compass.js",
+        "id": "org.apache.cordova.device-orientation.compass",
+        "clobbers": [
+            "navigator.compass"
         ]
     }
 ];
@@ -230,7 +317,16 @@ module.exports.metadata =
     "org.apache.cordova.file-transfer": "0.5.0",
     "org.apache.cordova.geolocation": "0.3.12",
     "org.apache.cordova.network-information": "0.2.15",
-    "org.transistorsoft.cordova.background-geolocation": "0.3.6"
+    "org.apache.cordova.vibration": "0.3.13",
+    "nl.x-services.plugins.socialsharing": "4.3.15",
+    "com.phonegap.plugins.PushPlugin": "2.4.0",
+    "cordova-plugin-inappbrowser": "0.6.1-dev",
+    "de.neofonie.cordova.plugin.nativeaudio": "3.0.2",
+    "org.apache.cordova.media": "0.2.16",
+    "de.appplant.cordova.plugin.local-notification": "0.8.1",
+    "com.synconset.imagepicker": "1.0.6",
+    "io.github.pwlin.cordova.plugins.fileopener2": "1.0.11",
+    "org.apache.cordova.device-orientation": "0.3.11"
 }
 // BOTTOM OF METADATA
 });

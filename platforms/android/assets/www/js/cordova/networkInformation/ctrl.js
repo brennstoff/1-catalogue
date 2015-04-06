@@ -1,8 +1,9 @@
 (function () {
     'use strict';
     angular.module('root')
-		.controller('CordovaNetworkInformationCtrl', ['$rootScope','$cordovaNetwork',  'DSCacheFactory',CordovaNetworkInformationCtrl]);
-    function CordovaNetworkInformationCtrl($rootScope,$cordovaNetwork,DSCacheFactory) {
+		.controller('CordovaNetworkInformationCtrl', 
+			['toastr','$ionicPlatform', '$rootScope','$cordovaNetwork','DSCacheFactory',CordovaNetworkInformationCtrl]);
+    function CordovaNetworkInformationCtrl(toastr, $ionicPlatform, $rootScope, $cordovaNetwork, DSCacheFactory) {
         
 		self.globalSettingCache = DSCacheFactory.get("globalSettingCache");
 
@@ -12,24 +13,25 @@
 		// toast functions => success info error warning clear([toast])
 		
 		vm.judgeAction = function(){
-			toastr.success('in judge action', 'Other text!');
+		
+			toastr.info('in judge action', 'Other text!');
 			switch(vm.feature){
 				
-				case "gn":
+				case "gn": // tested getNetwork see all codes at last of this page
 					$ionicPlatform.ready(function() {
 						toastr.info("$cordovaNetwork.getNetwork()");
 						toastr.info($cordovaNetwork.getNetwork());
 					});
 					break;
 				
-				case "ion":
+				case "ion": // tested isOffline
 					$ionicPlatform.ready(function() {
 						toastr.info("$cordovaNetwork.isOnline()");
 						toastr.info($cordovaNetwork.isOnline());
 					});
 					break;
 				
-				case "iof":
+				case "iof": // tested getNetwork
 					$ionicPlatform.ready(function() {
 						toastr.info("$cordovaNetwork.isOffline()");
 						toastr.info($cordovaNetwork.isOffline());
@@ -55,3 +57,22 @@
 		
     };
 })();
+
+// getNetwork()
+
+	// This property offers a fast way to determine the device's network connection state, and type of connection.
+
+		// Returns Connection Object:
+
+			// Connection Type	Description
+			// Connection.UNKNOWN	Unknown connection
+			// Connection.ETHERNET	Ethernet connection
+			// Connection.WIFI	WiFi connection
+			// Connection.CELL_2G	Cell 2G connection
+			// Connection.CELL_3G	Cell 3G connection
+			// Connection.CELL_4G	Cell 4G connection
+			// Connection.CELL	Cell generic connection
+			// Connection.NONE	No network connection
+			
+			
+			

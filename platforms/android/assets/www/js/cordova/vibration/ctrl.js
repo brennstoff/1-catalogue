@@ -1,7 +1,7 @@
 (function () {
     'use strict';
-    angular.module('root').controller('CordovaVibrationCtrl', ['$ionicPlatform','$cordovaVibration', 'DSCacheFactory', CordovaVibrationCtrl]);
-    function CordovaVibrationCtrl($ionicPlatform, $cordovaVibration, DSCacheFactory) {
+    angular.module('root').controller('CordovaVibrationCtrl', ['toastr','$ionicPlatform','$cordovaVibration', 'DSCacheFactory', CordovaVibrationCtrl]);
+    function CordovaVibrationCtrl(toastr, $ionicPlatform, $cordovaVibration, DSCacheFactory) {
         
 		self.globalSettingCache = DSCacheFactory.get("globalSettingCache");
 
@@ -13,10 +13,23 @@
 		vm.judgeAction = function(){
 			toastr.success('in judge action', 'Other text!');
 			switch(vm.feature){
-				
-				default : 
+				case "cv": //tested vibrate device for given time in ms
 					$ionicPlatform.ready(function() {
-						$cordovaVibration.vibrate(100);
+						toastr.success('Vibration for 1000ms');
+						$cordovaVibration.vibrate(1000);
+					});
+					break;
+				
+				case "nv": //tested vibrate device for given time in ms
+					$ionicPlatform.ready(function() {
+						toastr.success('Vibration for 3000ms');
+						navigator.vibrate(3000);
+					});
+					break;
+				
+				default :  //tested vibrate device for given time in ms
+					$ionicPlatform.ready(function() {
+						toastr.error('No input match');
 					});
 					vm.result = "No match found input";
 					break;

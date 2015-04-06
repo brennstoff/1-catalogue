@@ -21,13 +21,13 @@
 			// toastr.success('in judge action', 'Other text!');
 			switch(vm.feature){
 				
-				case "tcf":
+				case "tcf":	// test cordova file
 					$ionicPlatform.ready(function() {
 						toastr.info(cordova.file);
 					});
 					break;
 					
-				case "gfds":	
+				case "gfds":		// get file disk size
 					$ionicPlatform.ready(function() {
 						toastr.info('get Free Space func');
 						
@@ -42,44 +42,42 @@
 					});
 					break;
 				
-				case "chkdir":	
+				case "chkd":	// check directory from vm.input1
 					document.addEventListener('deviceready', function () {
-						toastr.info('Enter dirPath dir/other_dir in input1');
+						toastr.info('Enter dirPath in input1');
 						dirPath = vm.input1;
 						toastr.info('rootPath given is ' + rootPath);
 						toastr.info('dirPath given is ' + dirPath);
 						// dirPath = "dir/other_dir";
 							
-							$cordovaFile.checkDir(rootPath + dirPath)
+						$cordovaFile.checkDir(rootPath + dirPath)
 							.then(function (success) {
-									toastr.success('Operation Success');
-							  }, function (error) {
-									toastr.error('Operation not success');
-							  });
+								toastr.success('Operation Success');
+							}, function (error) {
+								toastr.error('Operation not success');
+							});
 							
 					});
 					break;
 				
-				case "crdir":	
+				case "crd":		// create directory from vm.input1
 					document.addEventListener('deviceready', function () {
-						//testdir1
-						toastr.info('Enter dirPath dir/other_dir or new_dir in input1');
+						//tda
+						toastr.info('Enter dirPath in input1');
 						dirPath = vm.input1;
 						toastr.info('rootPath given is ' + rootPath);
 						toastr.info('dirPath given is ' + dirPath);
 
-							$cordovaFile.createDir(rootPath + dirPath)
+						$cordovaFile.createDir(rootPath + dirPath)
 							.then(function (success) {
-									toastr.success('Operation Success');
-							  }, function (error) {
-									toastr.error('Operation not success');
-							  });
-
-						
+								toastr.success('Operation Success');
+							}, function (error) {
+								toastr.error('Operation not success');
+							});
 					});
 					break;
 				
-				case "crf":	
+				case "crf":		// create file
 					document.addEventListener('deviceready', function () {
 						
 						toastr.info('Enter dirPath dir/other_dir or new_dir in input1');
@@ -101,7 +99,7 @@
 					});
 					break;
 				
-				case "chkf":	
+				case "chkf":	// check file
 					document.addEventListener('deviceready', function () {
 						toastr.info('Enter dirPath dir/other_dir or new_dir in input1');
 						dirPath = (vm.input1)? vm.input1 + '/' : '';
@@ -123,20 +121,48 @@
 					break;
 					
 					
-				case "rmdir":	
+				case "rmd":		// remove directory
 					document.addEventListener('deviceready', function () {
+					
 						toastr.info('Enter dirPath dir/other_dir or new_dir in input1');
 						dirPath = vm.input1;
-						$cordovaFile.removeDir(rootPath + dirPath)
-						  .then(function (success) {
-								toastr.success('Dir removed');	
-						  }, function (error) {
-								toastr.error('Directory no removed');
-						  });
+						
+						// $cordovaFile.removeDirectory(rootPath + dirPath)
+							// .then(function (success) {
+								// toastr.success('Dir removed');	
+							// }, function (error) {
+								// toastr.error('Directory no removed');
+							// });
+							
+						// cordova.exec(function(result) {
+							// // alert("Free Disk Space: " + result);
+							// toastr.info(result); toastr.success('Dir removed');	
+						// }, function(error) {
+							// // alert("Error: " + error);
+							// toastr.info(error); toastr.error('Directory no removed');
+						// }, "File", "removeDir", [dirPath]);	
+						
+						window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, onFileSystemSuccess, fail);
+						function fail(evt) {
+							// alert("FILE SYSTEM FAILURE" + evt.target.error.code);
+							toastr.error('Operation no success');
+							toastr.error(evt.target.error.code); 
+						}
+						function onFileSystemSuccess(fileSystem) {
+							fileSystem.root.getDirectory(
+								dirPath,
+								{create : true, exclusive : false},
+								function(entry) {
+									entry.removeRecursively(function() {
+										// console.log("Remove Recursively Succeeded");
+										toastr.success('Operation Success');
+									}, fail);
+							}, fail);
+						}
 					});
 					break;
 					
-				case "rmf":	
+				case "rmf":		// remove file
 					document.addEventListener('deviceready', function () {
 						toastr.info('Enter filePath dir/some_file.txt or some_file.txt in input2');
 						filePath = vm.input2;
@@ -151,7 +177,7 @@
 					});
 					break;
 					
-				case "rr":	
+				case "rr":		// remove directory recursively
 					document.addEventListener('deviceready', function () {
 						toastr.info('Enter dirPath dir/other_dir or new_dir in input1');
 						dirPath = vm.input1;
@@ -166,31 +192,10 @@
 					});
 					break;
 
-				
-				case "wf":	
+								
+				case "lwf":		// file write operation with append set to true only
 					$ionicPlatform.ready(function() {
-						toastr.info('Enter filePath dir/file.txt or file.txt in input2');
-						toastr.info('Replaces file with same name is set to TRUE');
-						dirPath = vm.input2;
-
-						toastr.info('Enter data text in input3');
-						filePath = {"user":{"name":"errer","email":"sdsdff@gmail.com","username":"sdfsdfsd"}};
-						
-						// $cordovaFile.writeFile('user.json', data, {'append':false})
-						$cordovaFile.writeFile(( rootPath, dirPath, filePath, {'append':false} ))
-						  .then(function (success) {
-								toastr.success('Operation Success');
-								toastr.success(success);
-						  }, function (error) {
-								toastr.error('Operation Fail');
-								toastr.error(error);
-						  });
-					});
-					break;
-				
-				case "lwf1":		// write operation only
-					$ionicPlatform.ready(function() {
-					
+						toastr.info('file write operation with append set to true');
 						toastr.info('Enter filePath dir/file.txt or file.txt in input2');
 						toastr.info('Enter data in input3');
 						
@@ -235,7 +240,7 @@
 					});
 					break;
 				
-				case "lwf2":		// write and read both operation
+				case "lwrf":		// write and read both operation
 					$ionicPlatform.ready(function() {
 						
 						toastr.info('Enter filePath dir/file.txt or file.txt in input2');
@@ -272,10 +277,6 @@
 						}
 						
 						
-						
-						writeToFile();
-						
-						
 						function readTheFile() {
 							window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, gotFS2, fail);
 						}
@@ -306,11 +307,16 @@
 						function readAsText(file) {
 							var reader = new FileReader();
 							reader.onloadend = function(evt) {
-								var element = document.getElementById('data2');
-								element.innerHTML = '<strong>Read as data text:</strong> <br><pre>' + evt.target.result + '</pre>';
+								toastr.success('read As Text on load end');
+								toastr.inf(evt.target.result);
+								
+								// var element = document.getElementById('data2');
+								// element.innerHTML = '<strong>Read as data text:</strong> <br><pre>' + evt.target.result + '</pre>';
 							};
 							reader.readAsText(file);
 						}
+						
+						writeToFile();
 					});
 					break;
 				
@@ -352,52 +358,17 @@
 							toastr.error(error.code);
 							// console.log(error.code);
 						}
+						
+						deleteContents();
 					});	
 					break;
 				
-				case "wfa":	
-					document.addEventListener('deviceready', function () {
-						toastr.info('Enter filePath dir/file.txt or file.txt in input2');
-						toastr.info('Replaces file with same name is set to TRUE');
-						dirPath = vm.input2;
-
-						toastr.info('Enter data text in input3');
-						filePath = {"user":{"name":"errer","email":"sdsdff@gmail.com","username":"sdfsdfsd"}};
-						
-						// $cordovaFile.writeFile('user.json', data, {'append':false})
-						$cordovaFile.writeFile(( dirPath, filePath, {'append':true} ))
-						  .then(function (success) {
-								toastr.success('Operation Success');
-								toastr.success(success);
-						  }, function (error) {
-								toastr.error('Operation Fail');
-								toastr.error(error);
-						  });
-					});
-					break;
-					
-				case "wef":	
-					document.addEventListener('deviceready', function () {
-						
-						toastr.info('Enter filePath dir/file.txt or file.txt in input2');
-						dirPath = vm.input2;
-						toastr.info('Enter data text in input3');
-						filePath = vm.input3;
-						
-						// writeExistingFile(path + file, data)
-						$cordovaFile.writeExistingFile(rootPath + dirPath, filePath)
-						  .then(function (success) {
-								toastr.success('Operation Success');
-						  }, function (error) {
-								toastr.error('Operation Fail');
-						  });
-					});
-					break;
-					
 				case "rat":		// readAsText
 					document.addEventListener('deviceready', function () {
+					
 						toastr.info('Enter filePath dir/file.txt or file.txt in input2');
 						filePath = vm.input2;
+					
 						$cordovaFile.readAsText(rootPath + filePath)
 						  .then(function (success) {
 								toastr.success('Operation Success');
@@ -411,7 +382,7 @@
 					break;
 
 					
-				case "mvd":	
+				case "mvd":		// not tested
 					document.addEventListener('deviceready', function () {
 						toastr.info('Enter source dirPath dir/other_dir or new_dir in input1');
 						dirPath = vm.input1;
@@ -426,7 +397,7 @@
 					});
 					break;
 					
-				case "df":	
+				case "mvf":		// not tested	
 					document.addEventListener('deviceready', function () {
 						toastr.info('Enter filePath dir/file.txt or file.txt in input2');
 						filePath = vm.input2;
@@ -439,7 +410,7 @@
 					});
 					break;
 					
-				case "cpd":	
+				case "cpd":		// not tested
 					document.addEventListener('deviceready', function () {
 						toastr.info('Enter source dirPath dir/other_dir or new_dir in input1');
 						dirPath = vm.input1;
@@ -454,54 +425,182 @@
 					});
 					break;
 					
-				case "cpf":	
-					document.addEventListener('deviceready', function () {
-						toastr.info('Enter source filePath dir/file.txt or file.txt in input2');
-						dirPath = vm.input2;
-						toastr.info('Enter destination filePath dir/file.txt or file.txt in input3');
-						filePath = vm.input3;
-						$cordovaFile.copyFile(rootPath,dirPath, rootPath,filePath)
+				case "cpfa":		// not tested	// .copyFile // input source file in input1 and dest. file in input2
+					$ionicPlatform.ready(function() {
+					
+						toastr.info('Enter source filePath dir/file.txt or file.txt in input1');
+						dirPath = vm.input1;
+						toastr.info('Enter destination filePath dir/file.txt or file.txt in input2');
+						filePath = vm.input2;
+						
+						// .copyFile(cordova.file.dataDirectory, "file.txt", cordova.file.tempDirectory, "new_file.txt")
+						$cordovaFile.copyFile(rootPath,dirPath,rootPath, filePath)
 						  .then(function (success) {
 								toastr.success('Operation Success');
+								toastr.success(success);
+								vm.result = success;
 						  }, function (error) {
 								toastr.error('Operation Fail');
+								toastr.error(error);
+								vm.result = error;
 						  });
 					});
 					break;
-			
-				case "asd": 
+					
+				case "cpfb":		// not tested	// .copyFile // input source file in input1 and dest. file in input2
+					$ionicPlatform.ready(function() {
+					
+						toastr.info('Enter source filePath dir/file.txt or file.txt in input1');
+						dirPath = vm.input1;
+						toastr.info('Enter destination filePath dir/file.txt or file.txt in input2');
+						filePath = vm.input2;
+						
+						// .copyFile(cordova.file.dataDirectory, "file.txt", cordova.file.tempDirectory, "new_file.txt")
+						cordova.exec(function(result) {
+							// alert("Free Disk Space: " + result);
+							toastr.info(result);
+						}, function(error) {
+							// alert("Error: " + error);
+							toastr.info(error);
+						}, "File", "copyFile", [rootPath,dirPath,rootPath, filePath]);
+					});
+					break;
+				
+					
+				case "cpfc":		// not tested	// .copyFile // input source file in input1 and dest. file in input2
+					$ionicPlatform.ready(function() {
+					
+						toastr.info('Enter source filePath dir/file.txt or file.txt in input1');
+						dirPath = vm.input1;
+						toastr.info('Enter destination filePath dir/file.txt or file.txt in input2');
+						filePath = vm.input2;
+						
+						// .copyFile(cordova.file.dataDirectory, "file.txt", cordova.file.tempDirectory, "new_file.txt")
+						cordova.exec(function(result) {
+							// alert("Free Disk Space: " + result);
+							toastr.info(result);
+						}, function(error) {
+							// alert("Error: " + error);
+							toastr.info(error);
+						}, "File", "copyFile", [dirPath, filePath]);
+					});
+					break;
+				
+					
+				case "cpfd":		// not tested	// .copyFile // input source file in input1 and dest. file in input2
+					$ionicPlatform.ready(function() {
+					
+						toastr.info('Enter source filePath dir/file.txt or file.txt in input1');
+						dirPath = vm.input1;
+						toastr.info('Enter destination filePath dir/file.txt or file.txt in input2');
+						filePath = vm.input2;
+						
+						// .copyFile(cordova.file.dataDirectory, "file.txt", cordova.file.tempDirectory, "new_file.txt")
+						$cordovaFile.copyFile(dirPath, filePath)
+						  .then(function (success) {
+								toastr.success('Operation Success');
+								toastr.success(success);
+								vm.result = success;
+						  }, function (error) {
+								toastr.error('Operation Fail');
+								toastr.error(error);
+								vm.result = error;
+						  });
+					});
+					break;
+				
+				case "cpfe":		// not tested
+					$ionicPlatform.ready(function() {
+						
+						toastr.info('Enter source filePath dir/file.txt or file.txt in input1');
+						dirPath = vm.input1;
+						toastr.info('Enter destination filePath dir/file.txt or file.txt in input2');
+						filePath = vm.input2;
+						
+						function copyFile(fileEntry) {
+
+							console.log("copyFile fileEntry");
+							console.log(fileEntry);
+							console.log("cordova.file.dataDirectory");
+							console.log(cordova.file.dataDirectory);
+
+							window.resolveLocalFileSystemURL(
+								cordova.file.dataDirectory, 
+								function(fileSystem2) {
+
+								fileEntry.copyTo(
+									fileSystem2, 
+									"file3.jpg", 
+									onCopySuccess, 
+									fail
+								);
+
+								}, 
+								fail
+							); 
+						}
+
+						function onCopySuccess(entry) {
+							toastr.success(entry);
+						}
+
+						function fail(error) {
+							toastr.error(error.code);
+						}
+
+						function createFileEntry(fileURI) {
+							window.resolveLocalFileSystemURL(fileURI, copyFile, fail);    
+						}
+						
+						function onFCSuccess(fileURI) {
+							toastr.info("fileURI");
+							toastr.info(fileURI);
+							createFileEntry(fileURI);
+						}
+						
+						function copyFileToStorage() {
+							fileChooser.open(onFCSuccess,fail);
+						}
+						
+						copyFileToStorage();
+					
+					});
+					break;
+				
+				case "asd": //	applicationStorageDirectory
 					// vm.result = "asd";
 					toastr.info('cordova.file.applicationStorageDirectory');
 					vm.result = cordova.file.applicationStorageDirectory;	
 					break;
 				
-				case "cd": 
+				case "cd":  //	cacheDirectory
 					// vm.result = "cd";
 					toastr.info('cordova.file.cacheDirectory');
 					vm.result = cordova.file.cacheDirectory;	
 					break;
 				
-				case "dd": 
+				case "dd":  //	dataDirectory
 					// vm.result = "dd";
 					toastr.info('cordova.file.dataDirectory');
 					vm.result = cordova.file.dataDirectory;	
 					break;
 				
-				case "erd": 
+				case "erd":  //	externalRootDirectory
 					vm.result = "erd";
 					toastr.info('cordova.file.externalRootDirectory');
 					vm.result = cordova.file.externalRootDirectory;	
 					break;
 				
-				case "easd": 
+				case "easd":  //	externalApplicationStorageDirectory
 					// vm.result = "easd";
 					toastr.info('cordova.file.externalApplicationStorageDirectory');
 					vm.result = cordova.file.externalApplicationStorageDirectory;	
 					break;
 				
 				
-				default : vm.result = "No match found input";
-						break;
+				default : 
+					vm.result = "No match found input";
+					break;
 			}
 		}
     };
